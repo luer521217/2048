@@ -40,6 +40,7 @@ function newgame(){
 	//在随机两个格子生成数字
 	generateOneNumber();
     generateOneNumber();
+    $('#score').text(0);
 }
 
 function init(){
